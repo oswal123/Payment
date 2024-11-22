@@ -1,15 +1,10 @@
 {
   "expo": {
-    "name": "my-new-app",
-    "slug": "my-new-app",
+    "name": "Payment App",
+    "slug": "payment-app",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
-    "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true
+    "sdkVersion": "48.0.0",
+    "platforms": ["ios", "android", "web"]
     },
     "android": {
       "adaptiveIcon": {
@@ -36,6 +31,5 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
   }
 }
